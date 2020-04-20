@@ -1,0 +1,154 @@
+.sideNav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(36, 36, 36);
+    transition: 1.0s;
+    padding-top: 60px;
+}
+
+#sidebarNavigation hr{
+    margin-top: 3px;
+}
+
+#navLinks a {
+    display: block;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Quicksand', cursive;
+    padding-top: 30px;
+}
+#navLinks a:hover {
+    transition: 0.3s;
+    color: lightblue;
+}
+
+#introcard{
+    background: white;
+    transition: 1.0s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    margin-top: 40px;
+    padding: 0px 40px 40px 40px;
+    width: 75%;
+    text-align: center;
+}
+
+#hello{
+    font-family: 'Amatic SC', Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    padding: 17px 0 0 0;
+    margin: 0px;
+}
+
+#topleftNav{
+    padding-bottom: 20px;
+    margin: 0px 25px 50px 26px;
+    border: 1px solid white;
+    background-color: #151515;
+    box-shadow: 5px 10px 10px #111;
+    transition: 1.0s;
+}
+
+#rcausArtworks{
+    color: lightsteelblue;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center; 
+    padding-bottom: 0%;
+    margin: 20px;    
+}
+
+#favouriteWorksTable{
+    padding: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#favouriteWorksTable td{
+    padding: 10px;
+    background-color: white;
+    border: 5px solid white;
+}
+
+#favouriteWorks img{
+    border: 1px solid white;
+    border-collapse: collapse;
+    object-fit: cover;
+    width: 365.3px;
+    height: 365.3px;
+    transition: 1.0s;
+}
+
+#favouriteWorks img:hover{
+    transition: 0.5s;
+    transform: scale(1.08);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 25%);
+    cursor: pointer;
+}
+
+
+#overlay {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10;
+  }
+
+.subheading{
+    color: white;
+    font-weight: normal;
+    font-family: 'Quicksand', cursive;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+#homemain{
+    margin-left: 23%; 
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    margin-top: 40px;
+    padding: 0px 40px 40px 40px;
+    width: 75%;
+    text-align: center;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2e2e2e;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    font-weight: 15%;
+    padding: 2% 0% 1%;
+}
+
+p {
+    font-family: 'Quicksand', cursive;
+    font-size: 19px;
+}
+
+html { 
+    background: url(https://external-preview.redd.it/ZL5NXXMi3fZE9s-RkS6x_O7plYx48QSi2n1e0iGgaeo.jpg?auto=webp&s=ce517e6e6b146368dff27e720fd032608279d01b) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
